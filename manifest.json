@@ -21,6 +21,9 @@
       "background_scripts/main.js"
     ]
   },
+  "chrome_url_overrides": {
+    "newtab": "pages/blank.html"
+  },
   "options_ui": {
     "page": "pages/options.html",
     "chrome_style": false,

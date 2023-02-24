@@ -22,7 +22,7 @@
     ]
   },
   "chrome_url_overrides": {
-    "newtab": "pages/blank.html"
+    "newtab": "pages/kimium.html"
   },
   "options_ui": {
     "page": "pages/options.html",

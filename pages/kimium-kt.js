@@ -1,0 +1,1 @@
+../../../kotlin/kokpit667/kimium-kt/build/developmentExecutable/kimium-kt.js

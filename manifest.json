@@ -5,6 +5,11 @@
   "description": "Kopium is a Vimium fork with small changes for Kotlin devs.",
   "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
   "minimum_chrome_version": "105.0",
+
+  "chrome_url_overrides": {
+    "newtab": "pages/kopium.html"
+  },
+
   "background": {
     "service_worker": "background_scripts/background.js",
     "type": "module"

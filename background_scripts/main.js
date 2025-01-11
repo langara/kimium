@@ -232,7 +232,7 @@ const BackgroundCommands = {
         } else {
           // Otherwise, just create a new tab.
           let newTabUrl = Settings.get("newTabUrl");
-          if (newTabUrl == "pages/blank.html") {
+          if (newTabUrl == "pages/blank.html" || newTabUrl == "pages/kopium.html") {
             // "pages/blank.html" does not work in incognito mode, so fall back to "chrome://newtab"
             // instead.
             newTabUrl = request.tab.incognito

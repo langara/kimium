@@ -3,7 +3,7 @@
 //
 // TODO(philc): Convert these to Promise-based APIs.
 
-const chromeNewTabUrl = "about:newtab";
+const chromeNewTabUrl = "pages/kopium.html";
 
 // Opens the url in the current tab.
 // If the URL is a JavaScript snippet, execute that snippet in the current tab.

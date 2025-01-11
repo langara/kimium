@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Vimium",
+  "name": "Kopium",
   "version": "2.1.2",
-  "description": "The Hacker's Browser. Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.",
+  "description": "Kopium is a Vimium fork with small changes for Kotlin devs.",
   "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
   "minimum_chrome_version": "105.0",
   "background": {

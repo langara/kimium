@@ -7,6 +7,7 @@ Vimium is a browser extension that provides keyboard-based navigation and contro
 spirit of the Vim editor.
 
 **Installation instructions:**
+Kopium: this flag has to be enabled!: chrome://flags/#extensions-on-chrome-urls (see manifest.json file)
 
 - Chrome:
   [Chrome web store](https://chrome.google.com/extensions/detail/dbepggeogbaibhgnhhndojpepiihcmeb)

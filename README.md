@@ -2,12 +2,13 @@ Kopium - The Kotlin Hacker's Browser
 =============================
 
 Kopium is a Vimium fork with small changes for Kotlin devs.
+
 (and a way to cope with less and less open and extensible browsers)
+
 Vimium is a browser extension that provides keyboard-based navigation and control of the web in the
 spirit of the Vim editor.
 
 **Installation instructions:**
-Kopium: this flag has to be enabled!: chrome://flags/#extensions-on-chrome-urls (see manifest.json file)
 
 - Chrome:
   [Chrome web store](https://chrome.google.com/extensions/detail/dbepggeogbaibhgnhhndojpepiihcmeb)

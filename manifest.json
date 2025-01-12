@@ -21,8 +21,6 @@
     "browser_style": false,
     "open_in_tab": true
   },
-  // This flag has to be enabled!: chrome://flags/#extensions-on-chrome-urls
-  "host_permissions": ["chrome://*/*","<all_urls>"],
   "permissions": [
     "tabs",
     "bookmarks",
@@ -39,10 +37,20 @@
     "webNavigation",
     "search"
   ],
+  // To enable experimental support for chrome:// pages, do 3 things:
+  // 1. Enable experimental flag on page: chrome://flags/#extensions-on-chrome-urls
+  // 2. add "chrome://*/*" to host_permissions
+  // 3. add the same "chrome://*/*" to "content_scripts.matches"
+  "host_permissions": [
+    // "chrome://*/*",
+    "<all_urls>"
+  ],
   "content_scripts": [
     {
-      // This flag has to be enabled!: chrome://flags/#extensions-on-chrome-urls
-      "matches": ["chrome://*/*","<all_urls>"],
+      "matches": [
+        // "chrome://*/*",
+        "<all_urls>"
+      ],
       "js": [
         "lib/utils.js",
         "lib/keyboard_utils.js",

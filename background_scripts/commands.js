@@ -331,7 +331,13 @@ const Commands = {
       "Vomnibar.activateEditUrl",
       "Vomnibar.activateEditUrlInNewTab",
     ],
-    findCommands: ["enterFindMode", "performFind", "performBackwardsFind"],
+    findCommands: [
+      "enterFindMode",
+      "performFind",
+      "performBackwardsFind",
+      "findSelected",
+      "findSelectedBackwards",
+    ],
     historyNavigation: ["goBack", "goForward"],
     tabManipulation: [
       "createTab",
@@ -366,6 +372,8 @@ const Commands = {
     "scrollToLeft",
     "scrollToRight",
     "moveTabToNewWindow",
+    "findSelected",
+    "findSelectedBackwards",
     "goUp",
     "goToRoot",
     "LinkHints.activateModeWithQueue",
@@ -434,6 +442,8 @@ const defaultKeyMappings = {
   "/": "enterFindMode",
   "n": "performFind",
   "N": "performBackwardsFind",
+  "*": "findSelected",
+  "#": "findSelectedBackwards",
 
   // Vomnibar
   "o": "Vomnibar.activate",
@@ -524,6 +534,8 @@ const commandDescriptions = {
   enterFindMode: ["Enter find mode", { noRepeat: true }],
   performFind: ["Cycle forward to the next find match"],
   performBackwardsFind: ["Cycle backward to the previous find match"],
+  findSelected: ["Find the selected text"],
+  findSelectedBackwards: ["Find the selected text, searching backwards"],
 
   goPrevious: ["Follow the link labeled previous or <", { noRepeat: true }],
   goNext: ["Follow the link labeled next or >", { noRepeat: true }],
